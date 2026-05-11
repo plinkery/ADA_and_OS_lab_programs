@@ -1,0 +1,2 @@
+{"created_at_ms":1775368448023,"session_id":"session-1775368448023-0","type":"session_meta","updated_at_ms":1775368448023,"version":1}
+{"message":{"blocks":[{"text":"the tester.c file is too complecated for a beginner can you modify and make it a simple binary search program that is small and efficient and beginner friendly? also it should take user input for array and element to search","type":"text"}],"role":"user"},"type":"message"}

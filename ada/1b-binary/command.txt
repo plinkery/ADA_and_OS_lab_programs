@@ -1,0 +1,8 @@
+set title 'Binary Search'
+set xrange[10:30000]
+set yrange[0:20]
+set xlabel 'Input size (n)'
+set ylabel 'Operation Count'
+set style data linespoints
+plot 'Worst_Case.txt' title 'Worst case', 'Best_Case.txt' title 'Best Case'
+pause -1

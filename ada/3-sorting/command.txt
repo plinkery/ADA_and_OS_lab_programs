@@ -1,0 +1,6 @@
+set title 'Insertion Sort'
+set xlabel 'Input size (n)'
+set ylabel 'Comparisons'
+set style data linespoints
+plot 'Ins_W.txt' title 'Worst', 'Ins_B.txt' title 'Best', 'Ins_A.txt' title 'Average'
+pause -1

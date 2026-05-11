@@ -1,0 +1,8 @@
+set title 'Consecutive Integer GCD Algorithm (Empirical)'
+set xlabel 'Input size (n)'
+set ylabel 'Operation Count'
+set xrange [0:110]
+set yrange [0:200]
+set style data linespoints
+plot 'CONint_Worst.txt' title 'Worst Case', 'CONint_Best.txt' title 'Best Case'
+pause -1
