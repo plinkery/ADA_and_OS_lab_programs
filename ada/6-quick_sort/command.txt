@@ -1,0 +1,8 @@
+set title 'Quick Sort'
+set xrange[0:1200]
+set yrange[0:600000]
+set xlabel 'Input size (n)'
+set ylabel 'Operation Count'
+set style data linespoints
+plot 'Best_Case.txt' title 'Best Case', 'Worst_Case.txt' title 'Worst Case', 'Avg_Case.txt' title 'Average Case'
+pause -1
