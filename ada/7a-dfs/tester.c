@@ -75,7 +75,7 @@ void DFS(Graph *g, int vertex, int parent) {
         if (g->visitOrder[w] != 0 && w != parent && g->visitOrder[w] < g->visitOrder[vertex])
             cycleCount++;
 
-        if (g->visitOrder[w] == 0)
+        if (g->visitOrder[w] == 0)  
             DFS(g, w, vertex);
 
         nbr = nbr->next;
