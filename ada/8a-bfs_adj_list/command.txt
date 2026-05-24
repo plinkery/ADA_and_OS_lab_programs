@@ -1,4 +1,4 @@
-set title 'DFS - Empirical Analysis'
+set title 'BFS - Empirical Analysis (Adjacency List)'
 set xrange[0:1034]
 set yrange[0:*]
 set xlabel 'Input size (n)'

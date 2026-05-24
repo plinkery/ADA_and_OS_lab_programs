@@ -1,8 +1,0 @@
-set title 'DFS - Empirical Analysis (Adjacency Matrix)'
-set xrange[0:12]
-set yrange[0:100]
-set xlabel 'Input size (n)'
-set ylabel 'Operation Count'
-set style data linespoints
-plot 'DFSBEST.txt' title 'Best Case = Worst Case (O(V^2))'
-pause -1

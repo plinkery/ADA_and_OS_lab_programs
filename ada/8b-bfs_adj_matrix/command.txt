@@ -1,0 +1,8 @@
+set title 'BFS - Empirical Analysis (Adjacency Matrix)'
+set xrange[0:11]
+set yrange[0:*]
+set xlabel 'Input size (n)'
+set ylabel 'Operation Count'
+set style data linespoints
+plot 'BFSBEST.txt' title 'Best Case (Chain Graph)', 'BFSWORST.txt' title 'Worst Case (Complete Graph)'
+pause -1
