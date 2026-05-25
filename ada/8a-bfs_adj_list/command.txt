@@ -1,8 +1,0 @@
-set title 'BFS - Empirical Analysis (Adjacency List)'
-set xrange[0:1034]
-set yrange[0:*]
-set xlabel 'Input size (n)'
-set ylabel 'Operation Count'
-set style data linespoints
-plot 'Best_Case.txt' title 'Best Case (Chain Graph)', 'Worst_Case.txt' title 'Worst Case (Complete Graph)'
-pause -1
